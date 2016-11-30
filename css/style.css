@@ -84,23 +84,33 @@ html, body{
 /*height:100%;*/
 /*min-height:100%;*/
 margin:0;
+min-height:100vh;
+}
+
+html {
+  
 }
 
 body {
-  padding-bottom:1.5em; /* 40px+ in em units */
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
 }
 
 footer{
   font-size: 0.8em;
   width: 100%;
-  border: 2px solid white;
+  outline: 2px solid white;
   background-color: white;
   bottom: 0px;
-  position:fixed;
+  position:absolute;
+  padding:15px 0;
 }
 #col-1, #col-2, #col-3{
   display: inline;
-  padding:15px 130px;
+  /*padding:15px 130px;*/
   position: relative;
 }
 .inner-footer{
